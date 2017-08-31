@@ -1,0 +1,49 @@
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    background-color: #333;
+    color: #fafafa;
+    height: 100%;
+}
+
+#title {
+    height: 10%;
+    font-size: 2em;
+    overflow: none;
+    text-align: center;
+}
+
+#output {
+    height: 80%;
+    overflow-y: scroll;
+    padding: .5em;
+    border-top: 1px solid #555;
+    font-size: 1.5em;
+}
+
+#wstestform {
+    height: 10%;
+}
+
+#input {
+    font-size: 1.5em;
+    background-color: transparent;
+    color: inherit;
+    border: none;
+    border-top: 1px solid #555;
+    display: block;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: .5em;
+}
